@@ -1,6 +1,7 @@
-## react-typescript-jsonplaceholder.typicode.com
+## react-typescript-tailwind
 
-This project is developed as an example using the "jsonplaceholder.typicode.com" api.
+This project was developed as an example using the following packages. You can view the project here.
+[react-typescript-tailwind.pages.dev](https://react-typescript-tailwind.pages.dev)
 
 ## Some Packages Used
 
@@ -10,6 +11,11 @@ This project is developed as an example using the "jsonplaceholder.typicode.com"
 - Vite
 - Eslint
 - Prettier
+
+## API Resources
+
+- [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
+- [xsgames.co/randomusers](https://xsgames.co/randomusers)
 
 ## License
 
