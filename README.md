@@ -1,6 +1,7 @@
 ## react-typescript-tailwind
 
 This project was developed as an example using the following packages. You can view the project here.
+
 [react-typescript-tailwind.pages.dev](https://react-typescript-tailwind.pages.dev)
 
 ## Some Packages Used
