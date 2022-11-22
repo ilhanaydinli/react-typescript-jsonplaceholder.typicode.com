@@ -1,5 +1,5 @@
 export type UserCardType = {
-  image: string;
+  id: number;
   username: string;
   name: string;
   email: string;

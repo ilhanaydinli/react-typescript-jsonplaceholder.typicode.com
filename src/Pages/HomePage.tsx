@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
-import UserCard from './Components/UserCard';
-import { UserType } from './Types/UserType';
-import axios from 'axios';
 
-function App() {
+import axios from 'axios';
+import { UserType } from '../Types/UserType';
+import UserCard from '../Components/UserCard';
+
+function HomePage() {
   const [users, setUsers] = useState<UserType[]>([]);
 
   useEffect(() => {
@@ -21,7 +22,7 @@ function App() {
         {users.map((item) => (
           <UserCard
             key={item.id}
-            image={`https://xsgames.co/randomusers/assets/avatars/pixel/${item.id}.jpg`}
+            id={item.id}
             username={item.username}
             name={item.name}
             email={item.email}
@@ -35,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;

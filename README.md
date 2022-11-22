@@ -9,6 +9,7 @@ This project was developed as an example using the following packages. You can v
 - React
 - Typescript
 - Tailwind
+- React Router
 - Vite
 - Eslint
 - Prettier
